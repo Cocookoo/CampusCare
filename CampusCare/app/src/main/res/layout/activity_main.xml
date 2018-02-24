@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="288dp"
+        android:layout_height="371dp"
+        app:srcCompat="@drawable/campuslife"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/campuslife" />
+
+    <TextView
+        android:id="@+id/CampusLifeText"
+        android:textAllCaps= "true"
+        android:textSize="20sp"
+        android:layout_width="97dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="131dp"
+        android:layout_marginTop="160dp"
+        android:text="@string/campuslife"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="131dp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="272dp"
+        android:layout_height="26dp"
+        android:entries="@array/univ_arrays"
+        android:prompt="@string/university_prompt"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="431dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.02" />
+
+    <Button
+        android:id="@+id/SubmitBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        android:layout_marginBottom="43dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.945" />
+
+</android.support.constraint.ConstraintLayout>

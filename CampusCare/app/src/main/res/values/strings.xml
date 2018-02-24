@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CampusCare</string>
+    <string name="campuslife">Campus Life</string>
+    <string name="university_prompt">Choose a university</string>
+    <string name="start">Start</string>
+    <string name="locationaccess">Location Access</string>
+    <string name="allowaccess">Please allow location access to use CampusCare app</string>
+    <string name="enableLocBut">Enable Location Services</string>
+    <string name="holdBut">Hold</string>
+    <string name="info">Hold down the button to keep safe! Letting go for 20 seconds will alert the campus police of your location.</string>
+
+    <string-array name="univ_arrays">
+        <item>Choose One</item>
+        <item>University of Texas at Austin</item>
+        <item>University of Texas at Arlington</item>
+        <item>University of Texas at Dallas</item>
+        <item>University of Texas at El Paso</item>
+        <item>University of North Texas</item>
+        <item>Collin Community College(Spring Creek)</item>
+    </string-array>
+</resources>
